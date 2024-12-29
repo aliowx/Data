@@ -47,6 +47,9 @@ To get started, clone or download the repository and begin exploring the dataset
 git clone https://github.com/yourusername/yourproject.git
 
 # Install necessary dependencies
+poetry install
+poetry shell
+#or
 pip install -r requirements.txt
 
 # Load the data into a DataFrame (using pandas as an example)

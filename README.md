@@ -6,20 +6,6 @@ Welcome to the **Data Overview** section! This document will guide you through t
 
 Our dataset consists of structured data related to **[Topic/Area of Interest]**. It is formatted as **[CSV/JSON/Other format]** and contains key variables that are crucial for analysis and processing.
 
-### Key Columns / Features:
-- **[Column Name 1]**: Description of the feature, its role, and significance.
-- **[Column Name 2]**: Detailed explanation of the feature and its purpose.
-- **[Column Name 3]**: Description of the data, such as type, expected range, and relevance.
-- **[Column Name 4]**: A brief summary of the column's content and how it ties into the overall dataset.
-
-#### Sample Data:
-
-| Column 1 | Column 2 | Column 3 | Column 4 |
-|----------|----------|----------|----------|
-| Sample 1 | Sample 2 | Sample 3 | Sample 4 |
-| Sample 5 | Sample 6 | Sample 7 | Sample 8 |
-
-> **Note**: This table showcases a sample from the dataset to illustrate the structure and relationship between features.
 
 ## Data Sources
 
@@ -44,14 +30,17 @@ To get started, clone or download the repository and begin exploring the dataset
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/aliowx/data.git
 
 # Install necessary dependencies
 poetry install
 poetry shell
+
 #or
 pip install -r requirements.txt
 
 # Load the data into a DataFrame (using pandas as an example)
+
 import pandas as pd
 df = pd.read_csv('path/to/data.csv')
+
